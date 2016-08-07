@@ -1,10 +1,10 @@
 <?php 
 
-class Ao 
+class Aos 
 {
 	private $h;
 
-	public function arrCount($k)
+	public function arrCounting($k)
 	{
 		$this->h = count($k);
 		return $this->h;
@@ -21,8 +21,8 @@ class Ao
 	}
 }
 
-$m = new Ao;
-$u = $m->arrCount(array(4,4,4,4,4));
+$m = new Aos;
+$u = $m->arrCounting(array(4,4,4,4,4));
 echo $u;
 echo "<br>";
 $m->cekOddEven($u);
