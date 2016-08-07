@@ -1,6 +1,6 @@
 <?php 
 
-class A 
+class Ao 
 {
 	private $h;
 
@@ -21,8 +21,8 @@ class A
 	}
 }
 
-$m = new A;
-$u = $m->arrCount(array(2,4,5,6,7,9));
+$m = new Ao;
+$u = $m->arrCount(array(4,4,4,4,4));
 echo $u;
 echo "<br>";
 $m->cekOddEven($u);
